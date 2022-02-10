@@ -4,51 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
     <title>Kshitij Kurandwad</title>
 </head>
 <body>
-    <!-- <img src="images/mypic.jpg" alt="Kshitij"> -->
-    <h1>Kshitij Kurandwad</h1>
-    <p><em>Founder and CEO of <strong>TWOK Technologies</strong></em></p>
-    <pre>
-        Im a developer with vision make technolgy accessible to all parts of the country.
-        I love to travel and <em>most important <strong>Love to learn new thing</strong></em>
-        Currently Im learning web technologies and this has become my new passion....
-    </pre>
-    <hr>
-    <h3>Projects</h3>
-    <p>
-        <ol type="1">
-            <li>Amazon Product recommendation system using bert</li>
-            <a href="https://github.com/twok020101/Amazon-Product-recommendation-using-BERT">Amazon-Product-recommendation-using-BERT</a>
-            <li>Restaurant Management system</li>
-            <a href="http://github.com/twok020101/Restaurant-Management-Basic-">Restaurant-Management-Basic</a>
-        </ol>
-    </p>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10" cellpadding="10">
-        <thead>
-            <th>Skill</th>
-            <th>Rating(Out of 10)</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Python</td>
-                <td>9</td>
-            </tr>
-            <tr>
-                <td>HTML/CSS</td>
-                <td>8</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <table cellspacing="20">
-    <tr>
-    <td><a href="about.html">About Me</a></td>
-    <td><a href="contact.html">Contact Me</a></td>
-    </tr>
-    </table>
+    <div class="headContainer">
+        <img id="mypic" src="Images/mypic.png" alt="Personal_Profile_Pic">
+        <div class="headTextContainer">
+            <h4>I'm</h4>
+            <h1 class="nameclass">Kshitij Kurandwad</h1>
+            <h4>Coder,Thinker</h4>
+        </div>
+        
+    </div>
+    <span class="border-diff">*****</span>
+    <div class="projectContainer">
+        <div class="sectionName">
+            <h2 class="sectionNameHeader">Projects</h2>
+        </div>
+        <div class="project1 commom-project">
+            <img src="Images/project1logo.png" alt="Amazon Review System" class="projectImage">
+            <div class="projectInfo">
+            <h4 class="projectTitle">Amazon Product Review System</h4>
+            <p class="projectDescription">Its a console based system that top products based on analysis of comments.
+                This uses Google developed <span class="textHighLighter">BERT(Bi-directional Encoder Represention from unlabeled text)</span>
+            </p>
+            </div>
+            <div class="linkInfo">
+            <img src="Images/githubLogo.png" alt="GitHub Logo" class="githubLogo">
+            <a href="https://github.com/twok020101/Amazon-Product-recommendation-using-BERT"> Amazon Product Reiver System</a>
+            </div>
+        </div>
+        <div class="project2 common-project">
+            <img src="Images/project2Logo.png" alt="Project Logo" class="projectImage">
+            <div class="projectInfo">
+            <h4 class="projectTitle">WebEx Login Automation</h4>
+            <p class="projectDescription">
+                A bot that joins WebEx meetings and leaves it automatically after set time.
+            </p>
+            </div>
+            <div class="linkInfo">
+            <img src="Images/githubLogo.png" alt="GitHub Logo" class="githubLogo">
+            <a href="https://github.com/twok020101/WebEx_Automaion"> Web-Ex Automation</a>
+            </div>
+        </div>
+    </div>
+    <span class="border-diff">******</span>
+    <div class="bottomContainer">
+        <a href="https://github.com/twok020101" class="footlink">GitHub</a>
+    </div>
+
 </body>
 </html>

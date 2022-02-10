@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Quintessential&display=swap');
+
+body{
+    margin: 0;
+    background-color: gray;
+}
+
+.headContainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #21325E;
+    margin-bottom: 10px;
+}
+
+.headTextContainer h1, .headTextContainer h4{
+    text-align: center;
+    color: #F1D00A;    ;
+}
+
+.headTextContainer h1{
+    font-family: 'Festive', cursive;
+    font-size: 5em;
+    margin: 0;
+}
+
+.headTextContainer h4{
+    font-family: 'Quintessential', cursive;
+    margin:0;
+    font-size: 3em;
+    font-weight: 400;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.sectionNameHeader{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.border-diff{
+    opacity: 50%;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.projectContainer{
+    margin: auto;
+    width: 50%;
+}
+
+.projectImage{
+    width: 45%;
+    float: left;
+    margin: 2rem 30px;
+}
+
+.projectInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectInfo h4{
+    padding-top: 5rem;
+}
+
+.linkInfo{
+    clear: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.githubLogo{
+    width: 5%;
+    float: left;
+    margin-right: 30px;
+}
+
+.linkInfo a{
+    text-emphasis: none;
+}
+
+.bottomContainer{
+    display: flex;
+    background-color: #F0F0F0;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footlink{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* IDS */
+
+#mypic{
+    height:  auto 10vh;
+    width: auto 3vw;
+    overflow: auto;
+    margin-top: 20px;
+}
